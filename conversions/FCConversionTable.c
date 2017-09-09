@@ -15,7 +15,7 @@ int main(){
 	fahr = lower;
 	while(fahr <= upper){
 		cel = 5*(fahr-32)/9;
-		printf("%.1f\t%.1f\n",fahr, cel);
+		printf("%4.1f\t%6.1f\n",fahr, cel);
 		fahr+=step;
 	}
 	
