@@ -4,8 +4,8 @@
 
 int main(){
 	
-	double fahr, cel;
-	int lower, upper, step;
+	float fahr, cel;
+	float lower, upper, step;
 	
 	//lower limit, upper limit, step size
 	lower = 0;
@@ -15,7 +15,7 @@ int main(){
 	fahr = lower;
 	while(fahr <= upper){
 		cel = 5*(fahr-32)/9;
-		printf("%d\t%d\n",fahr, cel);
+		printf("%.1f\t%.1f\n",fahr, cel);
 		fahr+=step;
 	}
 	
